@@ -1,12 +1,7 @@
 body {
   background: #20262E;
-  padding: 20px;
+  padding: 10px;
   font-family: Helvetica;
-}
-
-h2 {
-  font-weight: bold;
-  margin-bottom: 15px;
 }
 
 .gridWrapper {
@@ -15,7 +10,7 @@ h2 {
 
 .gridVerticalValuesWrapper {
   display: flex;
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 .gridVerticalValues {
@@ -25,12 +20,13 @@ h2 {
 }
 
 .gridVerticalValue {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   border: solid #000 1px;
   background: #999;
   text-align: center;
   font-weight: bold;
+  font-size: 12px;
 }
 
 
@@ -42,28 +38,36 @@ h2 {
 }
 
 .gridHorizontalValue {
-  width: 22px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   border: solid #000 1px;
   background: #999;
   text-align: center;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .grid {
   display: inline-block;
   background: #ffc;
-  margin: 5px;
-  width: 220px;
+  margin: 3px;
+  width: 180px;
   cursor: hand;
 }
 
 .gridItem {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   border: solid 1px #333;
   cursor: hand;
-  font-size: 12px;
-  line-height: 20px;
+  line-height: 16px;
+  font-size: 16px;
+  color: white;
+}
+
+.crosswordsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
